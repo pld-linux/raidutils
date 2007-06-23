@@ -6,7 +6,7 @@ Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://i2o.shadowconnect.com/raidutils/%{name}-%{version}.tar.bz2
-BuildRequire:	autoconf
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
