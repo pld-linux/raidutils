@@ -6,6 +6,8 @@ Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://i2o.shadowconnect.com/raidutils/%{name}-%{version}.tar.bz2
+Patch0:		%{name}-suse.patch
+# Source0-md5:	d32ed6789a11dca51cbc6d4428e26d8b
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -18,9 +20,9 @@ RAID array and disks.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
-cp -f /usr/share/automake/config.sub .
 %{__autoconf}
 %configure
 %{__make}
