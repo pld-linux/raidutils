@@ -1,5 +1,5 @@
 Summary:	Utilities to manage Adaptec I2O compliant RAID controllers
-Summary(pl.UTF-8):	Narzêdzia do zarz±dzania kontrolerami RAID Adaptec I2O
+Summary(pl.UTF-8):	NarzÄ™dzia do zarzÄ…dzania kontrolerami RAID Adaptec I2O
 Name:		raidutils
 Version:	0.0.6
 Release:	1
@@ -20,10 +20,10 @@ activate/silence the alarm or get information about the status of the
 RAID array and disks.
 
 %description -l pl.UTF-8
-Program raidutils pozwala zarz±dzaæ kontrolerami RAID zgodnymi z
-Adaptec I2O. Potrafi na przyk³ad utworzyæ/usun±æ macierz RAID,
-dodaæ/usun±æ dysk hot spare do/z macierzy RAID, uaktywniæ/wy³±czyæ
-alarm albo uzyskaæ informacje o stanie macierzy RAID i jej dysków.
+Program raidutils pozwala zarzÄ…dzaÄ‡ kontrolerami RAID zgodnymi z
+Adaptec I2O. Potrafi na przykÅ‚ad utworzyÄ‡/usunÄ…Ä‡ macierz RAID,
+dodaÄ‡/usunÄ…Ä‡ dysk hot spare do/z macierzy RAID, uaktywniÄ‡/wyÅ‚Ä…czyÄ‡
+alarm albo uzyskaÄ‡ informacje o stanie macierzy RAID i jej dyskÃ³w.
 
 %prep
 %setup -q
